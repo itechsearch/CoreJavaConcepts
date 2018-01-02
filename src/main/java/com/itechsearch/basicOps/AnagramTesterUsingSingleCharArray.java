@@ -10,7 +10,7 @@ public class AnagramTesterUsingSingleCharArray {
         System.out.println("Enter second value ");
         String testValueTwo=scanner.next();
         System.out.print ("Given Strings are ");
-        if(testValueOne.length()==testValueTwo.length() || anagramUsingSingleCharArray(testValueOne, testValueTwo)){
+        if(testValueOne.length()==testValueTwo.length() && anagramUsingSingleCharArray(testValueOne, testValueTwo)){
             System.out.println("Anagram");
         }
         else{
